@@ -1,0 +1,82 @@
+/* Delivery Details */
+
+.RegisterForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5%;
+}
+
+.RegisterForm i {
+  position: relative;
+  bottom: 30px;
+  left: 180px;
+}
+
+.RegisterForm textArea {
+  border-radius: 7px;
+  margin-top: 10%;
+}
+
+.RegisterForm Button {
+  margin-top: 8%;
+}
+
+.input {
+  border-radius: 7px;
+  width: 400px;
+  margin-top: 10%;
+}
+
+#recaptcha {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+/*.eye-icon {
+  font-size: 25px;
+  position: absolute !important;
+  left: 71rem !important;
+  bottom: 26.8rem !important;
+}*/
+
+.numberVerified {
+  color: green;
+  margin-top: 10%;
+  text-align: center;
+  font-size: 30px;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 60px;
+  color: #892cdc;
+}
+
+@media screen and (max-width: 960px) {
+  .RegisterForm {
+    padding: 5%;
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .heading {
+    margin-left: 7%;
+    margin-top: 100px;
+    width: 80%;
+    color: #892cdc;
+  }
+
+  .eye-icon {
+    font-size: 25px;
+    left: 73% !important;
+    bottom: 30.5% !important;
+  }
+}
+
+.failed {
+  margin-top: 4%;
+  color: red;
+}

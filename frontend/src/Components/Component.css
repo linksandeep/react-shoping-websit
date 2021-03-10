@@ -1,0 +1,180 @@
+/*Buttons*/
+
+.outline-button {
+  background-color: transparent;
+  border-color: #892cdc;
+  color: #892cdc;
+}
+
+.outline-button:visited {
+  background-color: #892cdc;
+  color: #fff;
+  border-color: #892cdc;
+}
+
+.outline-button:focus {
+  background-color: #892cdc;
+  color: #fff;
+  border-color: #892cdc;
+}
+
+.outline-button:hover {
+  background-color: #892cdc;
+  color: #fff;
+  border-color: #892cdc;
+}
+
+.outline-button:active {
+  background-color: #892cdc;
+  color: #fff;
+  border-color: #892cdc;
+}
+
+.simple-button {
+  background-color: #892cdc;
+  color: #fff;
+  border-color: #892cdc;
+}
+
+.simple-button:hover {
+  background-color: #892cdc;
+  color: #fff;
+  border-color: #892cdc;
+}
+
+/* ADD ITEM PAGE */
+
+.add-item {
+  width: 20%;
+  margin: 5% auto;
+  text-align: center;
+}
+
+.add-item-form {
+  margin-top: 10%;
+}
+
+.add-item-component {
+  margin-top: 6%;
+}
+
+/* NAVBAR */
+
+.navbar-brand {
+  font-size: 1.7rem;
+}
+
+.navbar-link {
+  font-size: 1.3rem;
+}
+
+/* LOGIN / LOGOUT */
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 60vh;
+}
+
+.login-form {
+  width: 20%;
+  margin: 1% auto;
+}
+
+.login-h1 {
+  margin-top: 14%;
+}
+
+.logout-button {
+  text-align: center;
+  margin: 3.5% auto;
+}
+
+.logout-button button {
+  background-color: #892cdc;
+  color: #fff;
+  border-color: #892cdc;
+}
+
+.logout-button button:hover {
+  background-color: #892cdc;
+  color: #fff;
+  border-color: #892cdc;
+}
+
+/* BACKEND SEARCH BAR */
+
+.search-bar {
+  width: 50%;
+  text-align: center;
+  margin: 10% auto auto auto;
+}
+
+.delete-update-buttons {
+  margin: auto 3%;
+}
+
+/* FOOTER AND HEADER    */
+
+.footer {
+  background: #892cdc;
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.landingHeader {
+  background-color: #51adcf;
+  width: 100%;
+  height: 250px;
+  border-radius: 0px 0px 70px 70px;
+}
+
+.img {
+  height: 350px;
+  width: auto;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 960px) {
+  .add-item {
+    width: 60%;
+    margin: 15% auto;
+    text-align: center;
+  }
+
+  .login-form {
+    margin-top: 3%;
+    width: 50%;
+  }
+
+  .login-h1 {
+    margin-top: 45%;
+  }
+
+  .logout-button {
+    margin-top: 4%;
+  }
+
+  .search-bar {
+    width: 90%;
+    text-align: center;
+    margin: 10% auto auto auto;
+  }
+
+  .delete-update-buttons {
+    font-size: 11px;
+    margin: auto 0.9%;
+  }
+}

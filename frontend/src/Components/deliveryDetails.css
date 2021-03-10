@@ -1,0 +1,72 @@
+/* Delivery Details */
+
+.deliveryForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5%;
+}
+
+.deliveryForm input {
+  border-radius: 7px;
+  width: 400px;
+  margin-top: 10%;
+}
+
+.deliveryForm textArea {
+  border-radius: 7px;
+  margin-top: 10%;
+}
+
+.deliveryForm Button {
+  margin-top: 8%;
+}
+
+.deliveryForm Label {
+  color: #a37eba;
+  margin-top: 3%;
+}
+#recaptcha {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.numberVerified {
+  color: green;
+  margin-top: 10%;
+  text-align: center;
+  font-size: 30px;
+}
+
+.head {
+  text-align: center;
+  margin-top: 300px;
+  color: #892cdc;
+}
+
+.button {
+  margin-top: 3%;
+  margin-left: 47%;
+}
+
+@media screen and (max-width: 960px) {
+  .deliveryForm {
+    margin-top: 10%;
+    padding: 5%;
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .head {
+    margin-left: 10%;
+    margin-top: 300px;
+    width: 80%;
+    color: #892cdc;
+  }
+  .button {
+    margin-top: 3%;
+    margin-left: 40%;
+  }
+}

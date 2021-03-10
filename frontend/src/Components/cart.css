@@ -1,0 +1,105 @@
+.cartHeading {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.cart {
+  width: 70%;
+}
+
+.cardf {
+  display: flex;
+  flex-direction: row;
+}
+
+.item-div {
+  margin-bottom: 3%;
+}
+
+.item-name {
+  font-size: 30px;
+  width: 100%;
+}
+
+.item-price {
+  position: relative;
+  left: 500px;
+  bottom: 55px;
+  font-size: 30px;
+}
+
+.qty-label {
+  display: inline;
+  font-size: 20px;
+  position: relative;
+  bottom: 55px;
+}
+
+.item-qty {
+  position: relative;
+  bottom: 88px;
+  left: 40px;
+}
+
+.remove-button {
+  margin-top: 10px;
+  position: relative;
+  bottom: 85px;
+}
+
+.subtotal-div {
+  position: absolute;
+  right: 2%;
+  top: 30%;
+  width: 25%;
+  height: 18%;
+}
+
+.subtotal-heading {
+  display: inline-block;
+}
+
+.subtotal-price-heading {
+  display: inline-block;
+  margin-left: 3px;
+}
+
+.proceed-to-buy-button {
+  margin-top: 15px;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 960px) {
+  .cardf {
+    flex-direction: column;
+    height: 540px;
+  }
+
+  .cart {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .subtotal-div {
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: static;
+    width: 80%;
+  }
+
+  .subtotal-heading {
+    font-size: 1.8em;
+  }
+
+  .subtotal-price-heading {
+    font-size: 1.8em;
+  }
+}

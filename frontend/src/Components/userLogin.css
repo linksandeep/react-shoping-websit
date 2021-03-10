@@ -1,0 +1,28 @@
+.loginForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5%;
+}
+
+.loginForm Button {
+  margin-top: 8%;
+}
+
+.loginForm input {
+  border-radius: 7px;
+  width: 400px;
+  margin-top: 10%;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 60px;
+  color: #892cdc;
+}
+
+.failed {
+  margin-top: 4%;
+  color: red;
+}

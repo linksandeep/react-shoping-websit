@@ -1,0 +1,107 @@
+/* CARDS */
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  flex-wrap: wrap;
+  max-width: 100vw;
+}
+
+.icards {
+  margin: 50px 30px;
+  display: inline;
+  width: 25%;
+  text-align: center;
+}
+
+/*FRONT END SEARCH BAR*/
+
+.home-page-search {
+  height: 40px;
+  border-radius: 10px;
+  width: 55%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  background-image: url("https://png.pngtree.com/png-vector/20190224/ourlarge/pngtree-search-vector-icon-png-image_701506.jpg");
+  background-size: 38px;
+  background-repeat: no-repeat;
+  padding-left: 50px;
+}
+
+.homepage-search-bar {
+  margin-top: 5%;
+}
+
+.add-to-cart-button {
+  margin: auto 3%;
+}
+
+.img {
+  height: 350px;
+  width: auto;
+}
+
+/*Cart Number*/
+
+@keyframes flip_animation {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+.iconNumber {
+  border-radius: 50%;
+  width: 25px;
+  background-color: #132743;
+  position: absolute;
+  right: 180px;
+  top: 45px;
+}
+
+.iconNumber:hover {
+  animation-name: flip_animation;
+  animation-duration: 1s;
+}
+
+.iconAnimate {
+  animation-name: flip_animation;
+  animation-duration: 1s;
+}
+
+.speech-recog-button {
+  border-radius: 0px 10px 10px 0px;
+  display: inline-block;
+  position: relative;
+  bottom: 4.3vh;
+  left: 74.2vw;
+  width: 50px;
+}
+
+/*Media Quries*/
+
+@media screen and (max-width: 960px) {
+  .cards {
+    margin-top: 80px;
+    margin-left: 10px;
+  }
+
+  .icards {
+    width: 90%;
+  }
+
+  .home-page-search {
+    border-radius: 15px;
+    width: 70%;
+    margin: auto;
+  }
+
+  .homepage-search-bar {
+    margin-top: 20%;
+  }
+}
