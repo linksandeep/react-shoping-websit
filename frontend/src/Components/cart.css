@@ -85,6 +85,23 @@
     flex-wrap: wrap;
   }
 
+  .item-price {
+    left: 0px;
+    bottom: 10px;
+  }
+
+  .remove-button {
+    bottom: 35px;
+  }
+
+  .qty-label {
+    bottom: 20px;
+  }
+
+  .item-qty {
+    bottom: 50px;
+  }
+
   .subtotal-div {
     margin: 30px auto;
     display: flex;

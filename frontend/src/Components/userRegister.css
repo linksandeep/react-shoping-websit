@@ -55,18 +55,24 @@
   color: #892cdc;
 }
 
+.sendOtp-button {
+  display: block;
+  margin-left: 145px;
+}
+
 @media screen and (max-width: 960px) {
-  .RegisterForm {
-    padding: 5%;
-    width: 90%;
-    margin-left: 5%;
+  .input {
+    width: 300px;
   }
 
   .heading {
     margin-left: 7%;
-    margin-top: 100px;
-    width: 80%;
-    color: #892cdc;
+    margin-top: 40px;
+    width: 85%;
+  }
+
+  .sendOtp-button {
+    margin-left: 100px;
   }
 
   .eye-icon {

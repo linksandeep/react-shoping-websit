@@ -108,9 +108,8 @@ function Login(){
                         )}
                         <Button
                             type="submit"
-                            className="outline-button"
+                            className="outline-button login-button"
                             onClick={login}
-                            style={{marginRight:"20px",marginLeft:"20px" }}
                         >
                             Login
                         </Button>
@@ -123,9 +122,8 @@ function Login(){
                         </Button>
                         <Button
                             type="submit"
-                            className="outline-button"
+                            className="outline-button newAcc-Button"
                             onClick={redirectRegister}
-                            style={{marginLeft:"120px", display: "block"}}
                         >
                             Create A New Account
                         </Button>

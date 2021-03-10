@@ -10,6 +10,16 @@
   margin-top: 8%;
 }
 
+.newAcc-Button {
+  margin-left: 120px;
+  display: block;
+}
+
+.login-button {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 .loginForm input {
   border-radius: 7px;
   width: 400px;
@@ -25,4 +35,14 @@
 .failed {
   margin-top: 4%;
   color: red;
+}
+
+@media screen and (max-width: 960px) {
+  .loginForm input {
+    width: 300px;
+  }
+
+  .newAcc-Button {
+    margin-left: 70px;
+  }
 }

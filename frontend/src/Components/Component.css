@@ -85,6 +85,7 @@
 }
 
 .login-h1 {
+  color: #892cdc;
   margin-top: 14%;
 }
 
@@ -155,12 +156,12 @@
   }
 
   .login-form {
-    margin-top: 3%;
-    width: 50%;
+    margin-top: 5%;
+    width: 70%;
   }
 
   .login-h1 {
-    margin-top: 45%;
+    margin-top: 30%;
   }
 
   .logout-button {

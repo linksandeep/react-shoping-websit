@@ -173,10 +173,9 @@ function Register(){
                             </div>
                             )}
                             <Button
-                            className="outline-button"
+                            className="outline-button sendOtp-button"
                             type="submit"
                             onClick = {handleClick}
-                            style={{display:"block", marginLeft:"145px"}}
                             >
                             Send OTP
                             </Button>
