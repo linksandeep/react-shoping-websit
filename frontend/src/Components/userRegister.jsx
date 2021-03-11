@@ -10,7 +10,7 @@ import "./Component.css"
 function Register(){
 
     
-    const [confirmed, setConf] = useState(false);
+    const [confirmed, setConf] = useState(true);
     const [failed, setFailed] = useState(false);
     const [redirect, setRedirect] = useState(false);
     const [already, setAl] = useState(false);
@@ -102,7 +102,7 @@ function Register(){
     }
     else{
         return (
-            <div style={{height:"100vh"}}>
+            <div>
                 <Header />
                 <h1 className="heading">Register Yourself</h1>
                 <div className="RegisterForm">
@@ -132,13 +132,6 @@ function Register(){
                                 onChange={updateUser}
                                 value={user.password}
                             />
-                            <OverlayTrigger trigger={"hover"} placement="bottom" overlay={popover}>
-                                <i 
-                                onClick={changeVisibility}
-                                className="fas fa-eye eye-icon" 
-                
-                                ></i>
-                            </OverlayTrigger>
                            <Form.Control 
                                 className="input"
                                 name="name"
