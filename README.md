@@ -13,14 +13,14 @@ I build this project after completing [MERN stack course](http://ude.my/UC-cb73c
 - Automatic bill geneartion in pdf format after an order in placed.
 - New products can be added and old products can be updated using admin profile.
 
-### Sample user and admin login
+## Sample user and admin login
 
 ```
 Username - '9'
 Password - 'a'
 ```
 
-### Run
+## Run
 
 ```
 npm install
