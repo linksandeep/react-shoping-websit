@@ -64,7 +64,7 @@ function Register(){
 
     function registerUser(event){
         console.log(user);
-        axios.post("/api1//user/userRegister", user)
+        axios.post("/api1/user/userRegister", user)
             .then(res => {
                 console.log(res);
                 if(res.data === "success"){
