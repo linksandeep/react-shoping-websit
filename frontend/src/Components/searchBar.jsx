@@ -116,9 +116,7 @@ function Search(){
                     onClick={recognizeSpeech}>
                     <i className="fas fa-microphone"></i>
                 </Button>}
-                <div className={`iconNumber ${classNames}`} onAnimationEnd={animationFinished}>
-                    <span style={{color:"white"}}>{arrayLength}</span>
-                </div>*/}
+                */}
                 {display && (
                     <div className="cards">
                             {list
