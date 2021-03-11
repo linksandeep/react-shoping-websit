@@ -10,7 +10,7 @@ import "./Component.css"
 function Register(){
 
     
-    const [confirmed, setConf] = useState(true);
+    const [confirmed, setConf] = useState(false);
     const [failed, setFailed] = useState(false);
     const [redirect, setRedirect] = useState(false);
     const [already, setAl] = useState(false);
@@ -151,7 +151,7 @@ function Register(){
                                 rows={5}
                             />
                            <Button 
-                                className="outline-button"
+                                className="outline-button createAcc-button"
                                 type="submit"
                                 onClick={registerUser}
                             >

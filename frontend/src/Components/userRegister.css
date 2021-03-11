@@ -75,6 +75,11 @@
     margin-left: 100px;
   }
 
+  .createAcc-button {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
   .eye-icon {
     font-size: 25px;
     left: 73% !important;
