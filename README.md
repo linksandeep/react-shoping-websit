@@ -10,7 +10,7 @@ I build this project after completing [MERN stack course](http://ude.my/UC-cb73c
 - Product Search Feature.
 - User login and register with OTP verification.
 - Forgot password functionality.
-- Automatic bill geneartion in pdf format after and order in placed.
+- Automatic bill geneartion in pdf format after an order in placed.
 - New products can be added and old products can be updated using admin profile.
 
 ### Sample user and admin login
