@@ -11,7 +11,7 @@ function UpdateList(){
     const [logIn, setLogin] = useState(true);
 
     function onLoad(event){
-        const token = sessionStorage.getItem("token");
+        const token = sessionStorage.getItem("admintoken");
         if(token == null){
             setLogin(false)
         }
@@ -20,7 +20,7 @@ function UpdateList(){
     window.onload = onLoad;
 
     function logout(){
-        sessionStorage.removeItem("token");
+        sessionStorage.removeItem("admintoken");
         setLogin(false);
         window.location.reload(false);
     }

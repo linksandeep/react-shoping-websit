@@ -37,7 +37,7 @@ function Login(){
     };
 
     function onLoad(){
-        const token = sessionStorage.getItem("token");
+        const token = sessionStorage.getItem("admintoken");
         if(token == null){
             setLogin(false);
         }
@@ -63,7 +63,7 @@ function Login(){
             if(res.data === "success"){
                 console.log("success");
                 setLogin(true);
-                sessionStorage.setItem("token", "jHsbakndcnjgoILCNOOL6514631d5as4cs5c16d");
+                sessionStorage.setItem("admintoken", "jHsbakndcnjgoILCNOOL6514631d5as4cs5c16d");
                 window.location.reload(false);
             }
             else if(res.data === "noAdmin"){
