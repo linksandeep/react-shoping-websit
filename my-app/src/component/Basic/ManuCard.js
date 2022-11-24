@@ -8,6 +8,21 @@ const ManuCard = ({ menuData }) => {
    {menuData.map((curElem) => {
     return (
       <>
+      
+
+{/* // <nav>
+// <div className="menuIcom">
+//     <ul className="navbar-list">
+//         <li>
+//             <NavLink to="/Login">Login</NavLink>
+//         </li>
+//         <li>
+//             <NavLink to="/SignUp">SignUp</NavLink>
+//         </li>
+//     </ul>
+
+// </div>
+// </nav> */}
         <div className="card-container" key={curElem.id}>
           <div className="card">
             <div className="card-body">

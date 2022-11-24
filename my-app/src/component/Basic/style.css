@@ -246,3 +246,19 @@
     transition: all 20ms ease-out;
     text-transform: capitalize;
   }
+
+
+  /* web-login */
+
+  .web-login{
+    margin-left: 500px;
+    padding-top: 200px;
+     }
+    .second-page{
+      margin-top: 50px;
+    }
+    .email {
+      border-top: black;
+      padding-top: 30px;
+      background-color: blue;
+    }

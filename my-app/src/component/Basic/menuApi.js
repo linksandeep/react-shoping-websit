@@ -18,7 +18,7 @@ const Menu=[{
     id:3,
     image:"images/perfume.jpg",
     name:"perfume",
-    category:"woman",
+    category:"Women",
     price:25,
     dscription:"loremafdsfsa", 
 },
