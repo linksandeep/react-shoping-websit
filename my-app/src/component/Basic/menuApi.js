@@ -1,0 +1,50 @@
+const Menu=[{
+    id:1,
+    image:"images/belt.jpg",
+    name:"belt",
+    category:"men",
+    price:25,
+    dscription:"loremafdsfsa",
+},
+{
+    id:2,
+    image:"images/wallet.jpg",
+    name:"wallet",
+    category:"adult",
+    price:25,
+    dscription:"loremafdsfsa", 
+},
+{
+    id:3,
+    image:"images/perfume.jpg",
+    name:"perfume",
+    category:"woman",
+    price:25,
+    dscription:"loremafdsfsa", 
+},
+{
+    id:4,
+    image:"images/wallet.jpg",
+    name:"wallet",
+    category:"men",
+    price:25,
+    dscription:"loremafdsfsa", 
+},
+{
+    id:5,
+    image:"images/watch set.jpg",
+    name:"rose",
+    category:"men",
+    price:25,
+    dscription:"loremafdsfsa", 
+},
+{
+    id:1,
+    image:"images/rose.jpg",
+    name:"belt",
+    category:"men",
+    price:25,
+    dscription:"loremafdsfsa", 
+}
+];
+export default Menu;
