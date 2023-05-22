@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const connectDB = async () => {
     try{
-        const conn = await mongoose.connect(process.env.ATLAS_URI, {
+        const conn = await mongoose.connect("mongodb+srv://Sameer_Bajaj:sameerpriyanka@cluster0.qemwb.mongodb.net/Sameer-Project77", {
             useUnifiedTopology: true,
             useNewUrlParser: true,
             useCreateIndex: true

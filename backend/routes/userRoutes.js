@@ -9,16 +9,16 @@ passport.serializeUser(User.serializeUser());
 passport.deserializeUser(User.deserializeUser());
 
 router.post("/userRegister", function(req, res){
-    User.register({username: req.body.number, name:req.body.name, address:req.body.address}, req.body.password, function(err, user){
+    User.register(new User({username: req.body.number, name: req.body.name, address: req.body.address}), req.body.password, function(err, user){
         if(err){
-            res.send(err);
             console.log(err);
+            res.status(500).send(err.message); // Send error message with status 500
         }
         else{
-            res.send("success");
+            res.status(200).send("success"); // Send success message with status 200
         }
-    })
-})
+    });
+});
 
 router.post("/userLogin", function(req, res){
     passport.authenticate("local", (err, user, info) => {
